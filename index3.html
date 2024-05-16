@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <style>
+        
+      body{
+
+    background-color: #dad7cd;
+}
+h1{
+    text-align: center;
+    font-family: "IBM Plex Sans", sans-serif;
+    letter-spacing: -1px;
+    color: #434040;
+}
+    .box{
+        width: 100%;
+        height: 500px;
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    .card{
+        width:20%;
+        height: 500px;
+        border: 1px solid blue;
+        position: relative;
+        text-align: center;
+        box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    img{
+        width: 100%;
+        height: 230px;
+        box-shadow: inset;
+        border-radius: 5px;
+        
+
+    }
+    span{
+        color: hwb(300 90% 5%);
+        position: absolute;
+       font-size: 40px;
+        right: 110px;
+        top: 180px;
+        text-align: center;
+
+    }
+    .entity{
+        width: 100%;
+        height: 60px;
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 19px;
+    }
+    .entity>div{
+        width: 40%;
+        height: 40px;
+    
+        text-align: center;
+        padding-top: 16px;
+        
+        
+    }
+    p{
+        padding: 0px 5px;
+        color: hwb(300 18% 82%);
+    }
+    a{
+        padding: 10px;
+        background-color: #ca0f24;
+        display: inline-block;
+        text-decoration: none;
+        color: black;
+    }
+   
+
+    </style>
+
+</head>
+<body>
+    <div class="header">
+       <h1>
+        Flexbox Blog-Card
+       </h1>
+    </div>
+    <div class="box">
+        <div class="card">
+            <img src="bagan.jpg"><span class="text">Bagan</span>
+            <div class="entity">
+                <div ><i class="fa fa-calendar" style="font-size:19px"> AUG 4 </i></div>
+                <div><i class="fa fa-heart" style="font-size:19px"> 102 </i></div>
+            </div>
+            <p>
+                Bagan is an ancient city and a UNESCO World Heritage Site in the Mandalay Region of Myanmar. From the 9th to 13th centuries, the city was the capital of the Pagan Kingdom, the first kingdom that unified the regions that would later constitute Myanmar.
+            </p>
+            <a href="#">Read More</a>
+        </div>
+        <div class="card">
+            <img src="images.jpeg" alt=""><span class="text">Inlay</span>
+            <div class="entity">
+                <div ><i class="fa fa-calendar " style="font-size:19px"> AUG 4 </i> </div>
+                <div><i class="fa fa-heart" style="font-size:19px"> 102 </i></div>
+            </div>
+             <P> Inle Lake is in the Shan Hills of Myanmar. At its southwestern edge, Phaung Daw Oo Paya is a tiered pagoda with gilded Buddha statues.In the hills, near the market town of Indein, the stupas of Shwe Inn Dein Pagoda resemble a field of gold spires.
+
+            </p>
+            <a href="#">Read More</a>
+        </div>
+    </div>
+</body>
+</html>
